@@ -319,25 +319,3 @@ li {
 /*------------ 
  MOBILE VIEW 
  -------------*/
- @media screen and (max-width: 576px) {
-    header {
-        width: 100%;
-    }
-    .nav-title {
-        margin-left: -60px;
-    }
-    .navbar, ul {
-        flex-direction: column;
-    }
-
-    /* .nav2 ul {
-        margin-top: 20px;
-        margin-left: -150px;
-        gap: 20px;
-    } */
-
-
-    .banner, main, footer {
-        display: none;
-    }
- }
